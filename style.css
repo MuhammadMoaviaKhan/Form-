@@ -1,0 +1,51 @@
+.gray {
+    background-color: #f0f2f5;
+}
+.img {
+    margin-left: 70px;
+    color: #4162a5;
+}
+div {
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 180px;
+}
+span{
+    margin-left: 15px;
+    color: red;
+}
+.span {
+    margin-left: 22px;
+    font-weight: 500;
+    color: rgb(167, 167, 167);
+}
+.margin {
+    margin: 15px;
+    /* margin-top: 30px; */
+}
+input {
+    font-size: 20px;
+    width: 90%;
+    margin-left: 15px;
+    height: 35px;
+    border-radius: 3px;
+    outline: none;
+}
+.box {
+    width: 20px;
+    height: 20px;
+}
+.para {
+    margin-left: 50px;
+    margin-top: -23px;
+}
+.btn {
+    width: 89%;
+    margin-top: 16px;
+    height: 35px;
+    background-color: #4162a5;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}

